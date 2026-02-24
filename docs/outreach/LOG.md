@@ -73,5 +73,27 @@ Each entry follows this structure:
 
 ---
 
+### 2026-02-24 — Bushwick — Craigslist
+
+- **Post URL / Source:** Craigslist NYC > Brooklyn > Sublets & Temporary — "Large-ish room in Bushwick - March sublet"
+- **Post Summary:** Room available for March sublet, short-term/temporary, casual personal tone.
+- **Host Type:** Individual host
+- **Rental Type:** Room sublet / temporary
+- **Urgency Level:** High — March is days away, tight turnaround
+- **Likely Pain Point:** Vacancy stress, short timeline to fill
+
+**Action Taken:** DM only (Warm Intro — Craigslist, no comment function)
+**DM Sent:**
+> Hi there, saw your listing for the Bushwick room in March. Furnished sublets with a short turnaround can be tricky to fill through Craigslist alone, especially with the timeline.
+>
+> I work with Subletly. We focus on mid-term rentals in Brooklyn and connect hosts with vetted renters like remote workers and people between leases. Given your March window, you'd likely get faster traction reaching that crowd specifically.
+>
+> Happy to share how it works if you're interested, no pressure at all.
+
+**Status:** Sent
+**Notes:** High urgency, plain text DM format used per Craigslist guidelines. Follow up in 48 hrs if no reply.
+
+---
+
 *Log maintained by Subletly Brooklyn Community Partnerships team.*
 *Last updated: 2026-02-24*
