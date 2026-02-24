@@ -1,0 +1,39 @@
+name: Travel Healthcare Hotspot Weekly Tracker
+
+on:
+  schedule:
+    # Every Monday at 07:00 UTC
+    - cron: "0 7 * * 1"
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  scrape-and-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        run: python3 scripts/scrape_hotspots.py
+
+      - name: Generate report
+        run: python3 scripts/generate_report.py
+
+      - name: Commit and push artifacts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/travel_hotspots/ reports/travel_hotspots/
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "chore: weekly travel hotspot update $(date -u +%Y-%m-%d)"
+          git push

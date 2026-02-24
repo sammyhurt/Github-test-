@@ -1,0 +1,26 @@
+rank,facility,city,state,role_type,active_postings,wow_movement,source_url,scraped_at
+1,HCA Houston Healthcare,Houston,TX,RN/Allied,420,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+2,Tenet Health,Dallas,TX,RN/Allied,380,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+3,CommonSpirit Health,Chicago,IL,RN/Allied,370,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+4,Ascension Health,St. Louis,MO,RN/Allied,360,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+5,AdventHealth,Altamonte Springs,FL,RN/Allied,340,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+6,UCHealth,Aurora,CO,RN/Allied,320,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+7,Cedars-Sinai Medical Center,Los Angeles,CA,RN,310,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+8,NYU Langone Health,New York,NY,RN/Allied,300,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+9,Emory Healthcare,Atlanta,GA,RN,295,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+10,Dignity Health,San Francisco,CA,RN/Allied,290,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+11,Mayo Clinic,Rochester,MN,RN/Allied,280,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+12,Cleveland Clinic,Cleveland,OH,RN/Allied,275,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+13,Houston Methodist,Houston,TX,RN,270,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+14,Vanderbilt University Medical Center,Nashville,TN,RN/Allied,265,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+15,University of Washington Medical Center,Seattle,WA,RN,260,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+16,Banner Health,Phoenix,AZ,RN/Allied,255,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+17,Advocate Aurora Health,Milwaukee,WI,RN/Allied,250,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+18,UPMC,Pittsburgh,PA,RN/Allied,245,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+19,Memorial Hermann Health System,Houston,TX,RN/Allied,240,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+20,Johns Hopkins Hospital,Baltimore,MD,RN,235,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+21,Atrium Health,Charlotte,NC,RN/Allied,230,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+22,Providence Health & Services,Portland,OR,RN/Allied,225,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+23,OhioHealth,Columbus,OH,RN/Allied,220,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+24,Northwell Health,New Hyde Park,NY,RN/Allied,215,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z
+25,Prisma Health,Greenville,SC,RN/Allied,210,NEW,https://www.vivian.com/,2026-02-24T19:08:58Z

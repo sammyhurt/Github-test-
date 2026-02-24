@@ -1,0 +1,224 @@
+{
+  "run_date": "2026-02-24",
+  "state_summary": [
+    {
+      "state": "CA",
+      "name": "California",
+      "count": 18500
+    },
+    {
+      "state": "TX",
+      "name": "Texas",
+      "count": 15200
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
+      "count": 13800
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "count": 10400
+    },
+    {
+      "state": "GA",
+      "name": "Georgia",
+      "count": 7600
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
+      "count": 7100
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "count": 6900
+    },
+    {
+      "state": "NC",
+      "name": "North Carolina",
+      "count": 6700
+    },
+    {
+      "state": "AZ",
+      "name": "Arizona",
+      "count": 6200
+    },
+    {
+      "state": "MA",
+      "name": "Massachusetts",
+      "count": 5800
+    },
+    {
+      "state": "MI",
+      "name": "Michigan",
+      "count": 5600
+    },
+    {
+      "state": "OH",
+      "name": "Ohio",
+      "count": 5400
+    },
+    {
+      "state": "WA",
+      "name": "Washington",
+      "count": 5100
+    },
+    {
+      "state": "TN",
+      "name": "Tennessee",
+      "count": 4900
+    },
+    {
+      "state": "CO",
+      "name": "Colorado",
+      "count": 4700
+    },
+    {
+      "state": "MN",
+      "name": "Minnesota",
+      "count": 4400
+    },
+    {
+      "state": "NV",
+      "name": "Nevada",
+      "count": 4100
+    },
+    {
+      "state": "OR",
+      "name": "Oregon",
+      "count": 3800
+    },
+    {
+      "state": "VA",
+      "name": "Virginia",
+      "count": 3700
+    },
+    {
+      "state": "MO",
+      "name": "Missouri",
+      "count": 3500
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
+      "count": 250
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
+      "count": 235
+    },
+    {
+      "state": "SC",
+      "name": "South Carolina",
+      "count": 210
+    }
+  ],
+  "city_summary": [
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "count": 5200
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "count": 4800
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "count": 4500
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "count": 4100
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "count": 3900
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "count": 3700
+    },
+    {
+      "city": "Miami",
+      "state": "FL",
+      "count": 3500
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "count": 3200
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "count": 3000
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "count": 2900
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "count": 2800
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "count": 2700
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "count": 2600
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "count": 2500
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "count": 2400
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "count": 2200
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "count": 2100
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "count": 2000
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "count": 1900
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "count": 1800
+    }
+  ],
+  "total_facilities": 25,
+  "state_totals_live": {}
+}
