@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block private/account routes from indexing
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /admin/
+Disallow: /messages/
+Disallow: /auth/
+
+Sitemap: https://subletly.com/sitemap.xml
