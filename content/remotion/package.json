@@ -1,0 +1,22 @@
+{
+  "name": "subletly-remotion",
+  "version": "1.0.0",
+  "description": "Remotion video compositions for Subletly content",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render:tips": "remotion render --composition=TravelNurseTips --output=out/travel-nurse-tips.mp4",
+    "render:haven": "remotion render --composition=HavenRescueExplainer --output=out/haven-rescue-explainer.mp4",
+    "render:tiktok": "remotion render --composition=HavenRescueTikTok --output=out/haven-rescue-tiktok.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
