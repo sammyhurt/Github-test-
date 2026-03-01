@@ -1,0 +1,170 @@
+project:
+  name: wavyarnold-visibility-stack
+  owner: Anthony Campbell
+  stage_name: Wavyarnold
+  location: Newark, NJ
+  genres: ["Hiphop", "Rap", "Alternative", "R&B"]
+  primary_goals:
+    - increase_streams
+    - increase_followers
+    - consistent_bookings
+    - consistent_email_sms_subscribers
+
+global_rules:
+  brand_identity:
+    core_theme: "Broken but still coloring"
+    tone: ["confident", "emotion-forward", "Newark-grounded", "no-corny-marketing"]
+  writing_rules:
+    avoid_generic_claims: true
+    be_specific: true
+    keep_hooks_short: true
+  seo_rules:
+    prioritize_local_intent: true
+    internal_linking_required: true
+    include_schema_recs: true
+
+agents:
+  - id: brand_identity_agent
+    name: Brand Identity & Messaging
+    purpose: Create cohesive brand voice, bios, taglines, narrative, and style rules.
+    inputs:
+      required:
+        - stage_name
+        - location
+        - genres
+        - core_theme
+      optional:
+        - origin_story
+        - influences
+        - achievements
+    outputs:
+      - brand_voice_rules
+      - short_bio
+      - medium_bio
+      - long_press_bio
+      - tagline_set
+      - visual_direction
+      - homepage_hero_copy_variants
+    output_format: markdown
+    guardrails:
+      - "No fake achievements."
+      - "No exaggerated claims."
+      - "No cringe corporate hype."
+
+  - id: seo_architect_agent
+    name: SEO Architect (Local + Music Intent)
+    purpose: Build keyword map, site architecture, content clusters, and on-page outlines.
+    inputs:
+      required:
+        - location
+        - genres
+        - target_cities
+    outputs:
+      - sitemap
+      - keyword_map_by_page
+      - internal_linking_plan
+      - schema_plan
+      - page_outlines_h1_h2_h3
+    output_format: markdown
+    guardrails:
+      - "No keyword stuffing."
+      - "Every page must have a unique search intent."
+
+  - id: content_engine_agent
+    name: Content Engine (Blog + Lyrics + Behind-the-Song)
+    purpose: Produce consistent content that ranks and converts fans.
+    inputs:
+      required:
+        - release_list
+        - brand_voice_rules
+    outputs:
+      - monthly_content_calendar
+      - blog_post_drafts
+      - lyrics_page_template
+      - behind_the_song_template
+      - newsletter_templates
+      - press_release_template
+    output_format: markdown
+    guardrails:
+      - "Write like an artist, not a marketer."
+      - "Always include a CTA to Join."
+
+  - id: social_growth_agent
+    name: Social Growth (TikTok/IG/Shorts)
+    purpose: Generate short-form systems and hooks that drive attention + followers.
+    inputs:
+      required:
+        - brand_voice_rules
+        - release_list
+    outputs:
+      - 30_day_short_form_plan
+      - hooks_by_song
+      - shot_lists
+      - captions_and_ctas
+      - posting_cadence
+    output_format: markdown
+    guardrails:
+      - "No forced trends that don't fit."
+      - "Hook must land in first 1-2 seconds."
+
+  - id: outreach_booking_agent
+    name: Outreach + Bookings + Partnerships
+    purpose: Build consistent booking pipeline + playlist/press outreach.
+    inputs:
+      required:
+        - location
+        - target_cities
+        - contact_info
+    outputs:
+      - outreach_targets_categories
+      - dm_templates
+      - email_templates
+      - follow_up_sequences
+      - booking_one_sheet_copy
+      - crm_tracking_fields
+    output_format: markdown
+    guardrails:
+      - "No spam language."
+      - "Every outreach has one clear ask."
+
+  - id: analytics_experiment_agent
+    name: Analytics + Experimentation
+    purpose: Define KPIs, dashboards, and A/B testing plan.
+    inputs:
+      required:
+        - site_pages
+        - goals
+    outputs:
+      - kpi_definitions
+      - event_tracking_plan
+      - ab_test_backlog
+      - weekly_reporting_template
+    output_format: markdown
+    guardrails:
+      - "Every test needs a hypothesis."
+      - "Measure conversions, not vibes."
+
+workflows:
+  - name: Launch Website v1
+    steps:
+      - run: brand_identity_agent
+      - run: seo_architect_agent
+      - run: content_engine_agent
+      - run: analytics_experiment_agent
+    deliverables:
+      - homepage_copy
+      - sitemap_and_seo_outlines
+      - initial_content_batch
+      - tracking_plan
+
+  - name: Release Campaign Sprint (7 days)
+    steps:
+      - run: social_growth_agent
+      - run: content_engine_agent
+      - run: outreach_booking_agent
+      - run: analytics_experiment_agent
+    deliverables:
+      - short_form_pack
+      - press_release
+      - outreach_pack
+      - experiment_plan
